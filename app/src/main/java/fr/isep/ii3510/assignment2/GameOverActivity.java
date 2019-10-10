@@ -12,7 +12,7 @@ public class GameOverActivity extends AppCompatActivity {
     private Button start;
     private TextView word_view;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_over);
         start = (Button) findViewById(R.id.re_start);
